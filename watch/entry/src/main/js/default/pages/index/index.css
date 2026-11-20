@@ -1,0 +1,96 @@
+.page {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.months {
+  width: 466px;
+  height: 334px;
+  background-color: #000000;
+}
+
+.month {
+  width: 466px;
+  height: 334px;
+  background-color: #000000;
+}
+
+.body {
+  width: 466px;
+  height: 334px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 300px;
+  height: 44px;
+  font-size: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #f55b37;
+}
+
+.weekdays {
+  width: 336px;
+  height: 26px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.weekday {
+  width: 48px;
+  height: 26px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.week {
+  width: 336px;
+  height: 44px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* One element per day: the shift's colour fills the circle, a ring marks today or the tapped day. */
+.cell {
+  width: 42px;
+  height: 42px;
+  border-radius: 21px;
+  font-size: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+/* The tapped day, in its shift's (or leave's) colour. */
+.info {
+  width: 260px;
+  height: 56px;
+  margin-top: 4px;
+  border-radius: 28px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-title {
+  width: 240px;
+  height: 30px;
+  font-size: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.info-detail {
+  width: 240px;
+  height: 24px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+}
