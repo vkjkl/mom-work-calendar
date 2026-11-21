@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "ShiftCalendar",
+    "name": "工时记录",
     "slug": "ShiftCalendar",
-    "version": "2.7.0",
+    "version": "2.7.1",
     "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -10,7 +10,7 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0F0F0F"
+      "backgroundColor": "#12945B"
     },
     "ios": {
       "supportsTablet": true,
@@ -36,12 +36,11 @@
       }
     },
     "android": {
-      "versionCode": 12,
+      "versionCode": 13,
       "adaptiveIcon": {
-        "backgroundColor": "#0F0F0F",
+        "backgroundColor": "#12945B",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundImage": "./assets/android-icon-background.png"
       },
       "softwareKeyboardLayoutMode": "pan",
       "package": "com.itroy0.ShiftCalendar",
@@ -103,7 +102,7 @@
           "widgets": [
             {
               "name": "ShiftWeek",
-              "label": "Shift Calendar - Week",
+              "label": "工时记录 - 本周",
               "minWidth": "320dp",
               "minHeight": "110dp",
               "targetCellWidth": 5,
